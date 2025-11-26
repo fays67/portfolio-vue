@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <Portfolio />
+ <!--  <Portfolio />
     <Footer />
-    <Header />
+    <Header /> --> 
+    <Exercice />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Portfolio from "./components/Portfolio.vue";
 import Footer from "./components/Footer.vue";
 import Header from "./components/header.vue";
+import Exercice from "./components/exercice.vue";
 
 
 
@@ -19,6 +21,9 @@ export default {
     Portfolio,
     Header,
     Footer,
+    Exercice,
+
+
   },
 };
 </script>
